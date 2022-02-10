@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft YaHei', Serif;
+}
+
+body{
+    background: #f5f5f5fD;
+}
+
+.heading {
+    margin: 15px 0px 0px 15px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.myCards {
+    width: 100%;
+    height: 450px;
+    margin: 35px auto;
+    background: #fff;
+}
+
+.myCards .my-posts{
+    width: 35%;
+    height: 150px;
+    border: 1px solid #111;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px 0px 0px 15px;
+}
+
+.myCards .my-posts .left{
+    text-align: center;
+}
+
+.myCards .my-posts .left .count{
+    margin-top: 25px;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.myCards .my-posts .left p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.myCards .my-posts .right{
+    height: 100%;
+}
+
+.myCards .my-posts .right img {
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
